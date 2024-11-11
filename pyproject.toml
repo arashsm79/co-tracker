@@ -1,0 +1,25 @@
+[project]
+name = "cotracker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.9.2",
+    "numpy>=1.21",
+    "pandas>=2.2.3",
+    "scikit-image>=0.24.0",
+    "scipy>=1.13.1",
+    "tables>=3.9.2",
+    "torch >= 2.4.1",
+    "imageio[ffmpeg]>=2.35.1",
+    "pillow>=10.4.0",
+    "torchvision>=0.19.1",
+]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
